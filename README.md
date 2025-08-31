@@ -30,7 +30,7 @@ This project is a TypeScript-based command-line tool for uploading files to vari
     source venv/bin/activatebasher 
     python3 -m pip install -r requirements.txt
     npm install
-    source /home/user/tg-to-cloud-python/.venv/bin/activate && python3 main.py
+    source /home/user/tg-to-cloud/.venv/bin/activate && python3 main.py
     ```
 
 ## Configuration
