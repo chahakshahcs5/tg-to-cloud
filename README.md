@@ -6,7 +6,6 @@ This project is a TypeScript-based tool and python server for uploading files to
 
 -   **Cloud Agnostic:** Easily switch between different cloud storage providers by changing the configuration.
 -   **Plugin-Based Architecture:** Add support for new cloud providers by creating a new plugin.
--   **Command-Line Interface:** Simple and easy-to-use CLI for uploading files.
 -   **Environment-Based Configuration:** Uses a `.env` file for easy configuration.
 
 ## Installation
