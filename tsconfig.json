@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es2022",
+        "module": "commonjs",
+        "outDir": "dist",
+        "rootDir": "src",
+        "strict": true,
+        "esModuleInterop": true,
+        "typeRoots": [
+            "./src/types",
+            "./node_modules/@types"
+        ] // Important param which let ts-node recongnize custom types
+    },
+    "include": [
+        "src/**/*",
+        "src/types/**/*",
+        "src/types/**/*.d.ts"
+    ]
+}
