@@ -1,6 +1,6 @@
 # Telegram Save to Cloud
 
-This project is a TypeScript-based command-line tool for uploading files to various cloud storage providers, with a plugin-based architecture that makes it easy to extend.
+This project is a TypeScript-based tool and python server for uploading files to various cloud storage providers, with a plugin-based architecture that makes it easy to extend.
 
 ## Features
 
