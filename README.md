@@ -109,12 +109,12 @@ config.py
 
 ## Python Dependencies
 
--   telethon==1.40.0
--   python_dotenv==1.1.1
--   fastapi==0.116.1
--   uvicorn[standard]==0.35.0
--   motor==3.7.1
--   psutil==7.1.0
+-   [telethon](https://pypi.org/project/Telethon/)==1.40.0
+-   [python-dotenv](https://pypi.org/project/python-dotenv/)==1.1.1
+-   [fastapi](https://pypi.org/project/fastapi/)==0.116.1
+-   [uvicorn](https://pypi.org/project/uvicorn/)==0.35.0
+-   [motor](https://pypi.org/project/motor/)==3.7.1
+-   [psutil](https://pypi.org/project/psutil/)==7.1.0
 
 ## Python Server
 
