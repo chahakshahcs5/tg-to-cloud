@@ -47,6 +47,11 @@ This project is a TypeScript-based tool and python server for uploading files to
     CLOUD_PLUGIN="terabox"
     MONGODB_URI=mongodb://localhost:27017
     MONGO_DB=tg-to-cloud
+    SAVE_DIR=Downloads
+    BASE_PATH=~/tg-to-cloud-python
+    MAX_FILE_SIZE=104857600 # 100 MB
+    MAX_CONCURRENCY=5
+    EXPORT_LIMIT=100
     ```
 
 3.  Configure the cloud provider-specific settings in `src/config/cloudConfig.ts`.
@@ -109,6 +114,7 @@ config.py
 -   fastapi==0.116.1
 -   uvicorn[standard]==0.35.0
 -   motor==3.7.1
+-   psutil==7.1.0
 
 ## Python Server
 
